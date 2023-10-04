@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane; //imports the JOptionPane which makes it easy to pop up a (standard dialog box) that prompts users for a value or informs them of something!
-import java.util.Scanner;//creating( bi-directional communication) between the software and its user. In other words, it provides a way for the user to enter information that the software can use to inform its behavior.
+
 
 public class Abc
 {
