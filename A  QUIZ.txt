@@ -1,0 +1,91 @@
+import javax.swing.JOptionPane; //imports the JOptionPane which makes it easy to pop up a (standard dialog box) that prompts users for a value or informs them of something!
+import java.util.Scanner;//creating( bi-directional communication) between the software and its user. In other words, it provides a way for the user to enter information that the software can use to inform its behavior.
+
+public class Abc
+{
+    public static void main(String[] args) {
+        
+    
+     {
+      
+
+         JOptionPane.showMessageDialog(null, "SHALL WE TEST YOUR INTELLIGENCE?");//here JOptionPane.showMessageDialog shows a message with ok to click on to it,for this program,we need to keep the first one null and our message in inverted commas " " .aa
+
+ 
+         JOptionPane.showMessageDialog(null, "    \"RULES\"    \n1)YOU HAVE TO ANSWER ALL THE FOLLOWING QUESTIONS CORRECTLY. \n2)YOU WILL BE AWARDED WITH A POINT FOR A CORRECT ANSWER\n3)GOOD LUCK! ");
+         JOptionPane.showMessageDialog(null, "PRESS OK TO START THIS GAME");
+         JOptionPane.showMessageDialog(null, "**TYPE IN CAPITALS**");
+
+
+
+         String a = JOptionPane.showInputDialog("WHAT ANIMAL HAS THE LONGEST NECK?\n1)OSTRICH\n2)SNAKE\n3)GIRAFFE\n4)SLOTH"); // here we are trying to get user inputs the same way we gave them the options.it is necessary that users give input the way we give options(all the spaces and spellings and capitals should be same like the option then only we could get a proper output!).
+          String b = JOptionPane.showInputDialog("CLOSEST GALAXY TO EARTH.\n1)ANDROMEDA\n2)WHIRLPOOL\n3)MILKY WAY\n4)ALPHA");
+           String c = JOptionPane.showInputDialog("TALLEST BUILDING IN THE WORLD\n1)BURJ ARAB\n2)BURJ DUBIU\n3)CITADEL TOWERS\n4)BURJ KHALIFA");
+            String d = JOptionPane.showInputDialog("WHO IS THE CURRENT PRESIDENT OF INDIA?\n1)RAM NATH KOVIND\n2)DR.JAISHANKER \n3)DRAUPADI MURMU\n4)VENKAIAH NAIDU");
+             String e = JOptionPane.showInputDialog("WHICH COUNTRY HOSTED THE G20 SUMMIT THIS YEAR?\n1)BRAZIL\n2)INDIA\n3)AUSTRALIA\n4)USA");
+              String f = JOptionPane.showInputDialog("WHAT OPPOSES THE MOTION OF A MOVING BODY ?\n1)HEAT\n2)RESISTANCE\n3)FRICTION\n4)FORCE");
+               String g = JOptionPane.showInputDialog("WHICH INDIAN SONG GOT AWARDED AN OSCAR THIS YEAR\n1)JHOOME JO PATHAN\n2)NATU NATU\n3)HII BRO\n4)KANTARA SONG");
+                String h = JOptionPane.showInputDialog("WHAT HOUSE DOES HARRY POTTER BELONG TO?\n1)HUFFLEPUFF\n2)GRYFFINDOR\n3)SLYTHERIN\n4)RAVENCLAW");
+                 String i = JOptionPane.showInputDialog("WORLDS OLDEST LANGUAGE\n1)SUMERIAN\n2)SANSKRIT\n3)TAMIL\n4)MALAYALAM");
+                  String j = JOptionPane.showInputDialog("WHICH IS THE MOST ELECTROPOSITIVE ELEMENT\n1)HYDROGEN\n2)LITHIUM\n3)POTASSIUM\n4)CESIUM");
+    
+                   int x=0; // we here are declaring an int as 0 and are incrementing it for each case .Here in cases we have the answers.So one correct answer will increment the x value and so on.Wrong answers dont have an impact and the value doesnt get incremented.
+                           switch(a){   //here we have kept seperate switches for each question.
+                            case "GIRAFFE":  
+                           
+                            x++;
+                           }
+                           switch(b){
+                            case "ANDROMEDA":
+                           
+                            x++;
+                           }
+                           switch(c){
+                            case"BURJ KHALIFA":
+                            x++;
+                           }
+                           switch(d){
+                            case"DRAUPADI MURMU":
+                            x++;
+                           }
+                           switch(e){
+                            case"INDIA":
+                            x++;
+                           }   
+                           switch(f){
+                            case"FRICTION":
+                            x++;
+                           }
+                           switch(g){
+                            case"NATU NATU":
+                            x++;
+                           }
+                           switch(h){
+                            case"GRYFFINDOR":
+                            x++;
+                           }
+                           switch(i){
+                            case"SUMERIAN":
+                            x++;
+                           }
+                           switch(j){
+                            case"CESIUM":
+                            x++;
+                           }
+                            JOptionPane.showMessageDialog(null,"click on ok to see the answers!");
+
+                             JOptionPane.showMessageDialog(null,"1)GIRAFFE\n2)ANDROMEDA\n3)BURJ KHALIFA\n4) DRAUPADI MURMU\n5)INDIA\n6)FRICTION\n7)NATU NATU\n8)GRYFFINDOR\n9)SUMERIAN\n10)CESIUM");
+                             JOptionPane.showMessageDialog(null,"click on okay to see your score!");
+                
+
+
+                           JOptionPane.showMessageDialog(null, "you scored "+x+" points!");//here the x value will be same as the number of correct answers.As per each correct answer,x will get incremented.Initially the value was 0 so for each correct answer it will get incremented.
+//hope you understood!! :) <3
+                                      
+
+                          
+
+                  }
+
+                }
+            }
